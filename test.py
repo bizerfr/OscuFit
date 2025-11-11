@@ -12,7 +12,6 @@ from network.quadric import QuadraticSurface
 from utils.misc import get_logger, seed_all
 from dataset import PointCloudDataset, PatchDataset, SequentialPointcloudPatchSampler, load_data
 
-from visualize import visualize_quad
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
