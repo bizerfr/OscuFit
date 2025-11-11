@@ -20,7 +20,7 @@ def parse_arguments():
     parser.add_argument('--dataset_root', type=str, default='/mnt/disk1/Dataset/')
     parser.add_argument('--data_set', type=str, default='ABC-Diff', choices=['ABC-Diff', 'pclouds', 'FamousShapes', 'SceneNN'])
     parser.add_argument('--log_root', type=str, default='./log')
-    parser.add_argument('--ckpt_dirs', type=str, default='250627_224148_abc', help="can be multiple directories, separated by ',' ")
+    parser.add_argument('--ckpt_dirs', type=str, default='pretrain-v1', help="can be multiple directories, separated by ',' ")
     parser.add_argument('--ckpt_iter', type=str, default='500')
     parser.add_argument('--seed', type=int, default=2025)
     parser.add_argument('--num_workers', type=int, default=8)
