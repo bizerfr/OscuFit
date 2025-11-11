@@ -6,7 +6,6 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 
-#from network.model import DGCNN
 from network.model import GraphCNN
 from network.quadric import QuadraticSurface
 from utils.misc import get_logger, seed_all
