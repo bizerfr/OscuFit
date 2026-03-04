@@ -414,7 +414,7 @@ def eval(normal_gt_path, normal_pred_path, pcurv_gt_path, pcurv_pred_path, kg_pr
             kg_gts.append(kg_gt)
             kg_preds.append(kg_pred)
 
-            km_pred = np.load(os.path.join(kg_pred_path, shape + '_km.npy'))  
+            km_pred = np.load(os.path.join(km_pred_path, shape + '_km.npy'))  
             km_gt = km_gt[points_idx]
             if km_pred.shape[0] > km_gt.shape[0]:
                 km_pred = km_pred[points_idx]
