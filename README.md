@@ -1,11 +1,9 @@
 
-# OscuFit
+# OscuFit & N-OscuFit
 
-OscuFit: Learning to Fit Osculating Implicit Quadrics for Point Clouds. 
+OscuFit: Learning to Fit Osculating Implicit Quadrics for Point Clouds ([AAAI-26](https://ojs.aaai.org/index.php/AAAI/article/view/37405)), . 
 
-# N-OscuFit
-
-Learning to Fit Noise-Aware Osculating Implicit Quadrics for Point Clouds
+Learning to Fit Noise-Aware Osculating Implicit Quadrics for Point Clouds (Under Review).
 
 <div align="center">
   <img width="100%" alt="OscuFit Pipeline" src="teaser/pipeline.png">
