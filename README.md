@@ -1,13 +1,7 @@
 
-# OscuFit & N-OscuFit
-
-OscuFit: Learning to Fit Osculating Implicit Quadrics for Point Clouds ([AAAI-26](https://ojs.aaai.org/index.php/AAAI/article/view/37405)), 
+# N-OscuFit
 
 Learning to Fit Noise-Aware Osculating Implicit Quadrics for Point Clouds (Under Review).
-
-<div align="center">
-  <img width="100%" alt="OscuFit Pipeline" src="teaser/pipeline.png">
-</div>
 
 Clone the repository:
 
@@ -15,13 +9,6 @@ Clone the repository:
 git clone https://github.com/bizerfr/OscuFit.git
 cd OscuFit
 ```
-
-The OscuFit implementation is available on the `OscuFit` or `main` branches. To use OscuFit, switch to:
-
-```bash
-git switch OscuFit
-```
-
 
 
 The N-OscuFit implementation is available on the `N-OscuFit` branch. To use N-OscuFit, switch to:
